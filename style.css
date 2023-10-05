@@ -1,0 +1,93 @@
+
+body{
+    background-image: url(Images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+}
+
+header{
+    width: 30%;
+    height: 50vh;
+ 
+}
+.navbar-brand{
+   
+    height: 100px;
+    display: flex;
+    padding: 50px 50px;
+    text-align: right;
+   font-size: 40px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+
+}
+form{
+    padding: 0 500px;
+    font-size: 20px;
+    align-items: end;
+
+}
+.btn{
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+button{
+    font-size: 30px;
+    border-radius: 10x;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+ position: inherit;
+ background-color: blue;
+
+}
+.container{
+    text-align: end;
+}
+
+h2{
+    text-align: center;
+   color: aliceblue;
+   position: inherit;
+   padding: 100px;
+   
+}
+
+a{
+    top: 20px;
+   border: 1px solid blue;
+    border-radius: 17px;
+    color: #fff;
+   background: transparent;
+   padding: 18px;
+   outline: none;
+   border: none;
+
+}
+a:hover{
+    cursor: pointer;
+   background-color: rgba(0, 0, 255, 0.226);
+}
+
+.life{
+    background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        max-width: fit-content;
+    }
+    h2{
+        font-size: 23px;
+        padding: 0;
+        margin: 0;
+
+    }
+}
+
+
